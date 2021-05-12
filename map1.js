@@ -40,3 +40,12 @@ let forecast = [
 // "Monday will have a high of 55F and a low of 53F."
 
 //Your code here
+
+
+
+let pattern = forecast.map(x => `${x.day} will have a high of ${x.high}F and a low of ${x.low}F.`)
+console.log(pattern)
+
+// the x parameter, represents the whole string
+// using pattern as a variable, forecast is the array that holds the set of strings we need.
+// calling on x as its container, x.day is filled in accordingly interporlating ${x.day} .

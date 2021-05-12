@@ -8,3 +8,10 @@ let numbers = [1, 56, 2, 4, 1, 99, 3, 5];
 // via multiplication
 
 
+// multiply everything and return the product
+
+let result = numbers.reduce((product, num) => {
+    return (product * num);
+})
+
+console.log(result)
